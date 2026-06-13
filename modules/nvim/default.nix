@@ -14,7 +14,7 @@ in {
   # --- Pacotes do Sistema ---
   environment.systemPackages = with pkgs; [
     vimPlugins.haskell-tools-nvim
-    xclip
+    xclip wl-clipboard
     fzf
     yazi
     lazygit
@@ -59,6 +59,7 @@ in {
 
         # --- OBRIGATÓRIO PARA NVF ---
         package = pkgs.neovim-unwrapped;
+
 
         viAlias = false;
         vimAlias = true;

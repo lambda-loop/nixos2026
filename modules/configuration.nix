@@ -9,8 +9,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./nvim
-      ./unicode
+      # ./unicode
       ./kanata
+      ./pkgs
     ];
   system.activationScripts.etcNixosPermissions = {
     text = ''
