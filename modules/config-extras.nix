@@ -1,12 +1,22 @@
-{ config, pkgs, ... }: {
+{ config, pkgs, lib, ... }: {
+    services.xserver.enable = true;
+    services.displayManager.gdm.enable = true;
+
     services.emacs = {
         enable = true;
         # defaultEditor = true;
     };
+    # services.displayManager.sddm.enable = true;
+    # Força os aplicativos Electron (como Vesktop, Obsidian, VSCode) a usarem o X11
+    environment.sessionVariables.ELECTRON_OZONE_PLATFORM_HINT = "x11";
+
+    # Habilita o ambiente desktop KDE Plasma (versão 6).
+    services.desktopManager.plasma6.enable = true;
+    programs.ssh.askPassword = lib.mkForce "${pkgs.kdePackages.ksshaskpass}/bin/ksshaskpass";
 
     # GTK THINGS
-    services.xserver.desktopManager.gnome.enable = true;
-    programs.dconf.enable = true;
+    # services.xserver.desktopManager.gnome.enable = true;
+    programs.dconf.enable = lib.mkDefault true;
     services.dbus.packages = [ pkgs.at-spi2-core ];
 
     services.flatpak.enable = true;
@@ -24,13 +34,25 @@
             xdg-desktop-portal-gtk
             xdg-desktop-portal-gnome
         ];
-        config.common.default = "gnome";
+        config = {
+            common = {
+                default = [ "gtk" ];
+            };
+            plasma = {
+                default = [ "kde" ];
+            };
+            gnome = {
+                default = [ "gnome" ];
+            };
+        };
+        # config.common.default = "gnome";
     };
-
+    services.gnome.gnome-software.enable = true;
+    # programs.gnome-software.enable = true;
     environment.systemPackages = with pkgs; [
         flatpak
         flatpak-builder
-        gnome-software
+        # gnome-software
         appstream
         appstream-glib
 
@@ -52,13 +74,23 @@
 
     # NVIDIA drivers
     # -----------------------------------------------------------------
+
+    # boot.kernelParams = [ 
+    #     "nvidia-drm.modeset=1" 
+    #     "video=DP-1:1920x1080@360"
+    # ];
     hardware.nvidia = {
         open                   = false;
         modesetting.enable     = true;
+        # powerManagement.enable = false;
         powerManagement.enable = true;
         nvidiaSettings         = true;
-        package = config.boot.kernelPackages.nvidiaPackages.stable;
+        # package = config.boot.kernelPackages.nvidiaPackages.stable;
+        package = config.boot.kernelPackages.nvidiaPackages.latest; 
     };
+
+# services.xserver.displayManager.gdm.wayland = false;
+boot.kernelParams = [ "nvidia-drm.modeset=1" ];
 
     # -----------------------------------------------------------------
     # Gaming Compatibility
@@ -80,6 +112,7 @@
 
     hardware.opentabletdriver.enable = true;
     hardware.opentabletdriver.daemon.enable = true;
+
 
 
 

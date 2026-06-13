@@ -55,6 +55,10 @@
     displayManager.sessionCommands = ''
       ${pkgs.xorg.xmodmap}/bin/xmodmap -e 'keycode 202 = Hyper_L' -e 'clear mod3' -e 'add mod3 = Hyper_L'
     '';
+
+    # displayManager.sessionCommands = ''
+    #   ${pkgs.xorg.xmodmap}/bin/xmodmap -e 'keycode 202 = Hyper_L' -e 'clear mod3' -e 'add mod3 = Hyper_L'
+    # '';
   };
 
 }

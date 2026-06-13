@@ -178,6 +178,7 @@ in {
           rust.enable = true;
           #gleam.enable = true;
           elixir.enable = true;
+          zig.enable = true;
           haskell = {
             enable = true;
             extensions.haskell-tools.enable = true;
