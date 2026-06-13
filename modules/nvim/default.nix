@@ -234,7 +234,7 @@ in {
           clipboard = "unnamedplus";
           tabstop = 2;
           expandtab = true;
-          shiftwidth = 2;
+          shiftwidth = 4;
           guifont = "JetBrainsMono Nerd Font:h13";
         };
 
