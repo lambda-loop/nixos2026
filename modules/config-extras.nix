@@ -1,6 +1,7 @@
 { config, pkgs, lib, ... }: {
     services.xserver.enable = true;
-    services.displayManager.gdm.enable = true;
+    # services.displayManager.gdm.enable = true;
+    services.displayManager.sddm.enable = true;
 
     services.emacs = {
         enable = true;
@@ -82,8 +83,7 @@
     hardware.nvidia = {
         open                   = false;
         modesetting.enable     = true;
-        # powerManagement.enable = false;
-        powerManagement.enable = true;
+        powerManagement.enable = false;
         nvidiaSettings         = true;
         # package = config.boot.kernelPackages.nvidiaPackages.stable;
         package = config.boot.kernelPackages.nvidiaPackages.latest; 

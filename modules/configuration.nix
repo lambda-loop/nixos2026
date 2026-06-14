@@ -67,16 +67,6 @@
         variant = "";
     };
 
-    # NVIDIA 
-    hardware.nvidia = {
-        open                   = false;
-        modesetting.enable     = true;
-        # powerManagement.enable = false;
-        powerManagement.enable = true;
-        nvidiaSettings         = true;
-        # package = config.boot.kernelPackages.nvidiaPackages.stable;
-        package = config.boot.kernelPackages.nvidiaPackages.latest; 
-    };
 
     # Enable CUPS to print documents.
     services.printing.enable = true;
