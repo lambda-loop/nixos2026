@@ -8,9 +8,9 @@
             ./hardware-configuration.nix
             ./extra-config.nix
             # ./config-extras.nix
-            # ./xserver
+            ./xserver
             ./nvim
-            # ./unicode
+            ./unicode
             # ./kanata
             ./pkgs
         ];
@@ -57,15 +57,15 @@
     services.xserver.enable = true;
 
     # Enable the KDE Desktop Environment.
-    services.displayManager.sddm.enable = true;
-    services.desktopManager.plasma6.enable = true;
+    # services.displayManager.sddm.enable = true;
+    # services.desktopManager.plasma6.enable = true;
 
 
     # Configure keymap in X11
-    services.xserver.xkb = {
-        layout = "us";
-        variant = "";
-    };
+    # services.xserver.xkb = {
+    #     layout = "us";
+    #     variant = "";
+    # };
 
 
     # Enable CUPS to print documents.
