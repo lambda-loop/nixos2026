@@ -1,0 +1,203 @@
+jun 15 11:54:05 nixos systemd[1]: Starting kanata-my-keyboard.service...
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has begun execution[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has begun execution.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 3474.[0m
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9632 [INFO] kanata v1.11.0 starting
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9639 [INFO] process unmapped keys: true
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9639 [WARN] DANGER! cmd action is enabled.
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9645 [INFO] config file is valid
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9645 [ERROR] Failed to open the output uinput device. Make sure you added the user executing kanata to the 'uinput' group and that the 'uinput' group is configured correctly.
+jun 15 11:54:05 nixos kanata[12147]: See for more detail: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+jun 15 11:54:05 nixos kanata[12147]: 11:54:05.9647 [ERROR] Permission denied (os error 13)
+jun 15 11:54:05 nixos kanata[12147]: Press enter to exit
+jun 15 11:54:05 nixos kanata[12147]: Error: Permission denied (os error 13)
+jun 15 11:54:05 nixos systemd[1]: [0;1;39m[0;1;31m[0;1;39mkanata-my-keyboard.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mAn ExecStart= process belonging to unit kanata-my-keyboard.service has exited.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+jun 15 11:54:05 nixos systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkanata-my-keyboard.service: Failed with result 'exit-code'.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service has entered the 'failed' state with result 'exit-code'.[0m
+jun 15 11:54:05 nixos systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start kanata-my-keyboard.service.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has finished with a failure.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 3474 and the job result is failed.[0m
+jun 15 11:54:05 nixos systemd[1]: kanata-my-keyboard.service: Consumed 28ms CPU time over 41ms wall clock time, 3.9M memory peak, 1.8M read from disk.
+[0;38:5:245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service completed and consumed the indicated resources.[0m
+jun 15 19:09:48 nixos systemd[1]: Starting kanata-my-keyboard.service...
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has begun execution[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has begun execution.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 8832.[0m
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9349 [INFO] kanata v1.11.0 starting
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9350 [INFO] process unmapped keys: true
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9350 [INFO] NOTE: kanata was compiled to never allow cmd
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9351 [INFO] config file is valid
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9351 [ERROR] Failed to open the output uinput device. Make sure you added the user executing kanata to the 'uinput' group and that the 'uinput' group is configured correctly.
+jun 15 19:09:48 nixos kanata[36127]: See for more detail: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+jun 15 19:09:48 nixos kanata[36127]: 19:09:48.9351 [ERROR] Permission denied (os error 13)
+jun 15 19:09:48 nixos kanata[36127]: Press enter to exit
+jun 15 19:09:48 nixos kanata[36127]: Error: Permission denied (os error 13)
+jun 15 19:09:48 nixos systemd[1]: [0;1;39m[0;1;31m[0;1;39mkanata-my-keyboard.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mAn ExecStart= process belonging to unit kanata-my-keyboard.service has exited.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+jun 15 19:09:48 nixos systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkanata-my-keyboard.service: Failed with result 'exit-code'.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service has entered the 'failed' state with result 'exit-code'.[0m
+jun 15 19:09:48 nixos systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start kanata-my-keyboard.service.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has finished with a failure.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 8832 and the job result is failed.[0m
+jun 15 19:10:19 nixos systemd[1]: Starting kanata-my-keyboard.service...
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has begun execution[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has begun execution.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 9804.[0m
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1740 [INFO] kanata v1.11.0 starting
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1741 [INFO] process unmapped keys: true
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1741 [INFO] NOTE: kanata was compiled to never allow cmd
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1742 [INFO] config file is valid
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1742 [ERROR] Failed to open the output uinput device. Make sure you added the user executing kanata to the 'uinput' group and that the 'uinput' group is configured correctly.
+jun 15 19:10:19 nixos kanata[36519]: See for more detail: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+jun 15 19:10:19 nixos kanata[36519]: 19:10:19.1742 [ERROR] Permission denied (os error 13)
+jun 15 19:10:19 nixos kanata[36519]: Press enter to exit
+jun 15 19:10:19 nixos kanata[36519]: Error: Permission denied (os error 13)
+jun 15 19:10:19 nixos systemd[1]: [0;1;39m[0;1;31m[0;1;39mkanata-my-keyboard.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mAn ExecStart= process belonging to unit kanata-my-keyboard.service has exited.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+jun 15 19:10:19 nixos systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkanata-my-keyboard.service: Failed with result 'exit-code'.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service has entered the 'failed' state with result 'exit-code'.[0m
+jun 15 19:10:19 nixos systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start kanata-my-keyboard.service.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has finished with a failure.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 9804 and the job result is failed.[0m
+jun 15 19:11:43 nixos systemd[1]: Starting kanata-my-keyboard.service...
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has begun execution[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has begun execution.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 10463.[0m
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8798 [INFO] kanata v1.11.0 starting
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8799 [WARN] The item process-unmapped-keys is not defined in defcfg. Consider whether process-unmapped-keys should be yes vs. no.
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8799 [INFO] process unmapped keys: false
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8799 [INFO] NOTE: kanata was compiled to never allow cmd
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8800 [INFO] config file is valid
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8800 [ERROR] Failed to open the output uinput device. Make sure you added the user executing kanata to the 'uinput' group and that the 'uinput' group is configured correctly.
+jun 15 19:11:43 nixos kanata[38418]: See for more detail: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+jun 15 19:11:43 nixos kanata[38418]: 19:11:43.8800 [ERROR] Permission denied (os error 13)
+jun 15 19:11:43 nixos kanata[38418]: Press enter to exit
+jun 15 19:11:43 nixos kanata[38418]: Error: Permission denied (os error 13)
+jun 15 19:11:43 nixos systemd[1]: [0;1;39m[0;1;31m[0;1;39mkanata-my-keyboard.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mAn ExecStart= process belonging to unit kanata-my-keyboard.service has exited.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+jun 15 19:11:43 nixos systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkanata-my-keyboard.service: Failed with result 'exit-code'.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service has entered the 'failed' state with result 'exit-code'.[0m
+jun 15 19:11:43 nixos systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start kanata-my-keyboard.service.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has finished with a failure.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 10463 and the job result is failed.[0m
+jun 15 19:12:29 nixos systemd[1]: Starting kanata-my-keyboard.service...
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has begun execution[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has begun execution.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 11431.[0m
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0267 [INFO] kanata v1.11.0 starting
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0268 [WARN] The item process-unmapped-keys is not defined in defcfg. Consider whether process-unmapped-keys should be yes vs. no.
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0268 [INFO] process unmapped keys: false
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0269 [INFO] NOTE: kanata was compiled to never allow cmd
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0269 [INFO] config file is valid
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0269 [ERROR] Failed to open the output uinput device. Make sure you added the user executing kanata to the 'uinput' group and that the 'uinput' group is configured correctly.
+jun 15 19:12:30 nixos kanata[38817]: See for more detail: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+jun 15 19:12:30 nixos kanata[38817]: 19:12:30.0270 [ERROR] Permission denied (os error 13)
+jun 15 19:12:30 nixos kanata[38817]: Press enter to exit
+jun 15 19:12:30 nixos kanata[38817]: Error: Permission denied (os error 13)
+jun 15 19:12:30 nixos systemd[1]: [0;1;39m[0;1;31m[0;1;39mkanata-my-keyboard.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mAn ExecStart= process belonging to unit kanata-my-keyboard.service has exited.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+jun 15 19:12:30 nixos systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkanata-my-keyboard.service: Failed with result 'exit-code'.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe unit kanata-my-keyboard.service has entered the 'failed' state with result 'exit-code'.[0m
+jun 15 19:12:30 nixos systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start kanata-my-keyboard.service.[0m
+[0;38:5:245m░░ [0m[0;32mSubject: A start job for unit kanata-my-keyboard.service has failed[0m
+[0;38:5:245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38:5:245m░░[0m [0;32mSupport: https://lists.freedesktop.org/mailman/listinfo/systemd-devel[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mA start job for unit kanata-my-keyboard.service has finished with a failure.[0m
+[0;38:5:245m░░[0m [0;32m[0m
+[0;38:5:245m░░[0m [0;32mThe job identifier is 11431 and the job result is failed.[0m

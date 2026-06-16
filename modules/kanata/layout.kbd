@@ -1,55 +1,8 @@
-(defalias 
- xhyper (one-shot 250 f24)
 
- zellik (multi lmet (layer-while-held zellij-layer))
- clean-bs (multi (release-key lmet) \)
+(defsrc
+  caps lmet lalt
+)
 
-   fsft   (multi rsft (layer-while-held backslash-fix))
-   )
-
- (defsrc 
-  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  del   
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  home 
-  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \     pgup
-  caps a    s    d    f    g    h    j    k    l    ;    '    ret        pgdn
-  lsft z    x    c    v    b    n    m    ,    .    /    rsft     up     end
-  lctl lmet lalt          spc            ralt rmet rctl    left  down  right
- )
-
- (defalias
-  🙃 (unicode 🙃)
-
-  yan  (macro / v o i c e - b a n spc m e m b e r S-; S-2 y a n p o l i c a r p o)
-  yuri (macro / v o i c e - b a n spc m e m b e r S-; S-2 y u r i)
-  tilapinto (macro / v o i c e - b a n spc m e m b e r S-; S-2 t i l a p i n t o)
-  salmoneusoficial (macro / v o i c e - b a n spc m e m b e r S-; S-2 s a l m o n e u s o f i c i a l)
-  renner9955 (macro / v o i c e - b a n spc m e m b e r S-; S-2 r e n n e r 9 9 5 5)
-  _konira (macro / v o i c e - b a n spc m e m b e r S-; S-2 S-- k o n i r a)
-  korbit__ (macro / v o i c e - b a n spc m e m b e r S-; S-2 k o r b i t S-- S--)
-  guiramos1 (macro / v o i c e - b a n spc m e m b e r S-; S-2 g u i r a m o s 1)
-  wine11 (macro / v o i c e - b a n spc m e m b e r S-; S-2 w i n e 1 1)
-  carlosmodesto (macro / v o i c e - b a n spc m e m b e r S-; S-2 c a r l o s m o d e s t o)
-  klayil. (macro / v o i c e - b a n spc m e m b e r S-; S-2  k a y i l .)
-  elciodesouza. (macro / v o i c e - b a n spc m e m b e r S-; S-2  e c i o d e s o u z a .)
-
-
- )
-
-(deflayer (base-layer)
- esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  del   
- grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  home 
- tab  q    w    e    r    t    y    u    i    o    p    [    ]    \ mlft 
- esc  a    s    d    f    g    h    j    k    l    ;    '    ret        mlft
- lsft z    x    c    v    b    n    m    ,    .    /   @fsft     up     end
- lctl lmet lalt          spc            ralt rmet rctl    left  down  right
- )
-
-  ;;TODO: improve this garbage!
-(deflayermap (backslash-fix)
- \ S-\)
-
- (deflayermap (zellij-layer)
-  \ @clean-bs)
-
-
-
+(deflayer base
+  esc lalt lmet
+)

@@ -10,8 +10,8 @@
             # ./config-extras.nix
             ./xserver
             ./nvim
-            ./unicode
-            # ./kanata
+            # ./unicode
+            ./kanata
             ./pkgs
         ];
     system.activationScripts.etcNixosPermissions = {
